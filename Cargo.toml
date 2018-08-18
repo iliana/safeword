@@ -1,0 +1,16 @@
+[package]
+name = "safeword"
+description = "Gracefully ends a Tokio-based application upon receiving a signal"
+version = "0.1.0"
+authors = ["iliana weller <ilianaw@buttslol.net>"]
+license = "MIT"
+homepage = "https://github.com/ilianaw/safeword"
+repository = "https://github.com/ilianaw/safeword"
+readme = "README.md"
+
+[dependencies]
+tokio = "0.1.7"
+tokio-signal = "0.2.2"
+
+[dev-dependencies]
+tokio-uds = "0.2.0"
